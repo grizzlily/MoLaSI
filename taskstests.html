@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoLaSI -> Тестові завдання</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,200;1,600;1,700;1,800;1,900;1,1000&family=Oswald:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700;1,900&family=Roboto:ital,wght@1,500&family=Rubik:ital,wght@0,300;0,500;0,900;1,400&family=Shantell+Sans:ital,wght@0,300;0,500;1,300;1,500;1,700;1,800&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/taskstests.css">
+    <link rel="stylesheet" href="../css/adaptive.css">
+    <link rel="shortcut icon" href="../icons/OwlBook.png">
+</head>
+
+<body>
+    <div id='header'>
+        <div class="logo">
+            <a id="logotext" href="main.html" width="60" height="60"><img src="../icons/OwlBook.png" title="MoLaSI"
+                    width="60" height="60"> MoLaSI</a>
+        </div>
+        <nav>
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <ul class="menu_top">
+                <li><a href="main.html">Головна</a></li>
+                <li><a href="interesting.html">Цікавеньке</a></li>
+                <li><a href="literature.html">Література</a></li>
+                <li><a href="vocabulary.html">Словничок</a></li>
+                <li>
+                    <a href="#">Завдання</a>
+                    <ul class="dropdown">
+                        <li><a href="taskswr.html">Письмові</a></li>
+                        <li><a href="taskstests.html">Тестові</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <img class="biggif" src="../gifs/test.gif"></img>
+        <div id='english'>
+            <div class='border'>
+                <div class="title">Тестові завдання з англійської мови:</div>
+            </div>
+            <a class="link" href="../tests/testCanCant.html" target="_blank">Can/Cant</a><br>
+            <a class="link" href="../tests/testMustMustnt.html" target="_blank">Must/Mustn't</a><br>
+            <a class="link" href="../tests/testToBe.html" target="_blank">To be</a><br>
+            <a class="link" href="../tests/testAAn-A1.html" target="_blank">Артикль A, An - A1</a><br>
+            <a class="link" href="../tests/testTheA-A1.html" target="_blank">Артикль The, A - A1</a><br>
+        </div>
+
+        <div id='german'>
+            <div class='border'>
+                <div class="title">Тестові завдання з німецької мови:</div>
+            </div>
+            <a class="link" href="../tests/testSein.html" target="_blank">Sein</a><br>
+            <a class="link" href="../tests/testHaben.html" target="_blank">Haben</a><br>
+            <details>
+                <summary>Роди в німецькій мові</summary>
+                <a href="../tests/testDERDIEDASDIE.html" target="_blank">Означений артикль DER DIE DAS DIE.
+                    Nominativ.</a><br>
+                <a href="../tests/testEINEINE.html" target="_blank">Неозначений артикль EIN EINE. Nominativ.</a><br>
+            </details>
+        </div>
+    </div>
+    <script>
+        // function checkAnswersEnglish_1() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('question', 'first_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('question1', 1);
+        //     checkAndSetColor('question2', 0);
+        //     checkAndSetColor('question3', 1);
+        //     checkAndSetColor('question4', 1);
+        //     checkAndSetColor('question5', 1);
+        //     checkAndSetColor('question6', 3);
+        //     checkAndSetColor('question7', 0);
+        //     checkAndSetColor('question8', 1);
+        //     checkAndSetColor('question9', 1);
+        //     checkAndSetColor('question10', 0);
+        //     checkAndSetColor('question11', 2);
+        //     checkAndSetColor('question13', 3);
+
+        //     var element12 = document.getElementById('first_12');
+        //     var checkboxes12 = document.getElementsByName('question12');
+        //     var isCorrect1 = checkboxes12[1].checked;
+        //     var isCorrect2 = checkboxes12[2].checked;
+        //     var isCorrect3 = checkboxes12[4].checked;
+        //     var allCorrect = isCorrect1 && isCorrect2 && isCorrect3;
+        //     element12.style.color = allCorrect ? '#aed60f' : '#fc237a';
+        // }
+
+        // function checkAnswersEnglish_2() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('question2_', 'second_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('question2_1', 2);
+        //     checkAndSetColor('question2_2', 2);
+        //     checkAndSetColor('question2_3', 0);
+        //     checkAndSetColor('question2_4', 3);
+        //     checkAndSetColor('question2_5', 0);
+        //     checkAndSetColor('question2_6', 1);
+        //     checkAndSetColor('question2_7', 0);
+        //     checkAndSetColor('question2_8', 1);
+        //     checkAndSetColor('question2_9', 1);
+        //     checkAndSetColor('question2_10', 1);
+        //     checkAndSetColor('question2_11', 0);
+        //     checkAndSetColor('question2_12', 1);
+        //     checkAndSetColor('question2_13', 3);
+        // }
+        // function checkAnswersEnglish_3() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('englishQuestion3_', 'english3_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('englishQuestion3_1', 0);
+        //     checkAndSetColor('englishQuestion3_2', 2);
+        //     checkAndSetColor('englishQuestion3_3', 1);
+        //     checkAndSetColor('englishQuestion3_4', 0);
+        //     checkAndSetColor('englishQuestion3_5', 2);
+        //     checkAndSetColor('englishQuestion3_6', 2);
+        //     checkAndSetColor('englishQuestion3_7', 2);
+        //     checkAndSetColor('englishQuestion3_8', 2);
+        //     checkAndSetColor('englishQuestion3_9', 2);
+        //     checkAndSetColor('englishQuestion3_10', 1);
+        //     checkAndSetColor('englishQuestion3_11', 1);
+        //     checkAndSetColor('englishQuestion3_12', 2);
+        //     checkAndSetColor('englishQuestion3_13', 1);
+        //     checkAndSetColor('englishQuestion3_14', 2);
+        //     checkAndSetColor('englishQuestion3_15', 1);
+        //     checkAndSetColor('englishQuestion3_16', 1);
+        //     checkAndSetColor('englishQuestion3_17', 2);
+        //     checkAndSetColor('englishQuestion3_18', 2);
+        //     checkAndSetColor('englishQuestion3_19', 2);
+        //     checkAndSetColor('englishQuestion3_20', 1);
+        //     checkAndSetColor('englishQuestion3_21', 1);
+        // }
+
+        // function checkAnswersEnglish_4() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('englishQuestion4_', 'english4_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('englishQuestion4_1', 3);
+        //     checkAndSetColor('englishQuestion4_2', 0);
+        //     checkAndSetColor('englishQuestion4_3', 2);
+        //     checkAndSetColor('englishQuestion4_4', 1);
+        //     checkAndSetColor('englishQuestion4_5', 0);
+        //     checkAndSetColor('englishQuestion4_6', 2);
+        //     checkAndSetColor('englishQuestion4_7', 2);
+        //     checkAndSetColor('englishQuestion4_8', 2);
+        //     checkAndSetColor('englishQuestion4_9', 2);
+        //     checkAndSetColor('englishQuestion4_10', 1);
+        //     checkAndSetColor('englishQuestion4_11', 0);
+        //     checkAndSetColor('englishQuestion4_12', 2);
+        //     checkAndSetColor('englishQuestion4_13', 2);
+        //     checkAndSetColor('englishQuestion4_14', 3);
+        //     checkAndSetColor('englishQuestion4_15', 2);
+        //     checkAndSetColor('englishQuestion4_16', 0);
+        // }
+
+        // function checkAnswersEnglish_5() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('englishQuestion5_', 'english5_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('englishQuestion5_1', 3);
+        //     checkAndSetColor('englishQuestion5_2', 0);
+        //     checkAndSetColor('englishQuestion5_3', 0);
+        //     checkAndSetColor('englishQuestion5_4', 0);
+        //     checkAndSetColor('englishQuestion5_5', 1);
+        //     checkAndSetColor('englishQuestion5_6', 0);
+        //     checkAndSetColor('englishQuestion5_7', 1);
+        //     checkAndSetColor('englishQuestion5_8', 0);
+        //     checkAndSetColor('englishQuestion5_9', 2);
+        //     checkAndSetColor('englishQuestion5_10', 0);
+        //     checkAndSetColor('englishQuestion5_11', 0);
+        //     checkAndSetColor('englishQuestion5_12', 0);
+        //     checkAndSetColor('englishQuestion5_13', 0);
+        //     checkAndSetColor('englishQuestion5_14', 0);
+        //     checkAndSetColor('englishQuestion5_15', 2);
+        // }
+
+        // function checkAnswersGerman_1() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('germanQuestion1_', 'german1_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('germanQuestion1_1', 0);
+        //     checkAndSetColor('germanQuestion1_2', 0);
+        //     checkAndSetColor('germanQuestion1_3', 3);
+        //     checkAndSetColor('germanQuestion1_4', 4);
+        //     checkAndSetColor('germanQuestion1_5', 1);
+        //     checkAndSetColor('germanQuestion1_6', 1);
+        //     checkAndSetColor('germanQuestion1_7', 2);
+        //     checkAndSetColor('germanQuestion1_8', 4);
+        //     checkAndSetColor('germanQuestion1_9', 3);
+        //     checkAndSetColor('germanQuestion1_10', 1);
+        //     checkAndSetColor('germanQuestion1_11', 1);
+        //     checkAndSetColor('germanQuestion1_12', 2);
+        //     checkAndSetColor('germanQuestion1_13', 1);
+        //     checkAndSetColor('germanQuestion1_14', 0);
+        //     checkAndSetColor('germanQuestion1_15', 2);
+        // }
+
+        // function checkAnswersGerman_2() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('germanQuestion2_', 'german2_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('germanQuestion2_1', 1);
+        //     checkAndSetColor('germanQuestion2_2', 1);
+        //     checkAndSetColor('germanQuestion2_3', 3);
+        //     checkAndSetColor('germanQuestion2_4', 0);
+        //     checkAndSetColor('germanQuestion2_5', 4);
+        //     checkAndSetColor('germanQuestion2_6', 5);
+        //     checkAndSetColor('germanQuestion2_7', 0);
+        //     checkAndSetColor('germanQuestion2_8', 0);
+        //     checkAndSetColor('germanQuestion2_9', 5);
+        //     checkAndSetColor('germanQuestion2_10', 0);
+        //     checkAndSetColor('germanQuestion2_11', 0);
+        //     checkAndSetColor('germanQuestion2_12', 5);
+        //     checkAndSetColor('germanQuestion2_13', 3);
+        //     checkAndSetColor('germanQuestion2_14', 1);
+        //     checkAndSetColor('germanQuestion2_15', 4);
+        // }
+
+        // function checkAnswersGerman_3() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('germanQuestion3_', 'german3_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('germanQuestion3_1', 0);
+        //     checkAndSetColor('germanQuestion3_2', 1);
+        //     checkAndSetColor('germanQuestion3_3', 2);
+        //     checkAndSetColor('germanQuestion3_4', 1);
+        //     checkAndSetColor('germanQuestion3_5', 1);
+        //     checkAndSetColor('germanQuestion3_6', 1);
+        //     checkAndSetColor('germanQuestion3_7', 1);
+        //     checkAndSetColor('germanQuestion3_8', 3);
+        //     checkAndSetColor('germanQuestion3_9', 0);
+        //     checkAndSetColor('germanQuestion3_10', 3);
+        // }
+
+        // function checkAnswersGerman_4() {
+        //     function getColor(checkedIndex, correctIndex) {
+        //         return checkedIndex === correctIndex ? '#aed60f' : '#fc237a';
+        //     }
+
+        //     function checkAndSetColor(question, correctIndex) {
+        //         var options = document.getElementsByName(question);
+        //         var checkedIndex = getCheckedIndex(options);
+        //         var elementId = question.replace('germanQuestion4_', 'german4_');
+        //         var element = document.getElementById(elementId);
+        //         element.style.color = getColor(checkedIndex, correctIndex);
+        //     }
+
+        //     checkAndSetColor('germanQuestion4_1', 0);
+        //     checkAndSetColor('germanQuestion4_2', 1);
+        //     checkAndSetColor('germanQuestion4_3', 0);
+        //     checkAndSetColor('germanQuestion4_4', 2);
+        //     checkAndSetColor('germanQuestion4_5', 0);
+        //     checkAndSetColor('germanQuestion4_6', 2);
+        //     checkAndSetColor('germanQuestion4_7', 3);
+        //     checkAndSetColor('germanQuestion4_8', 3);
+        //     checkAndSetColor('germanQuestion4_9', 3);
+        //     checkAndSetColor('germanQuestion4_10', 2);
+        // }
+
+        // function cleanForm(test) {
+        //     var elements = document.querySelectorAll(test + ' p');
+        //     for (var i = 0; i < elements.length; i++) {
+        //         elements[i].style.color = 'whitesmoke';
+        //     }
+        // }
+        // function resetForm(test) {
+        //     var form = document.getElementById(test);
+        //     form.reset();
+        // }
+        // function getCheckedIndex(options) {
+        //     for (var i = 0; i < options.length; i++) {
+        //         if (options[i].checked) {
+        //             return i;
+        //         }
+        //     }
+        //     return -1;
+        // }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+<footer>
+    <div class="information">
+        <p>Content by Sonia Prudka <br> <br>
+            Site by Lily Lytvynova</p>
+    </div>
+    <div class="logoFooter">
+        <a class="logotextFooter" href="main.html" width="45" height="45"><img src="../icons/OwlBook.png" title="MoLaSI"
+                width="60" height="60"> MoLaSI</a>
+    </div>
+</footer>
+
+</html>
