@@ -1,0 +1,226 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+#header {
+    width: 100%;
+    height: 130px;
+    background-color: #aed60f;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logotext {
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Shantell Sans', serif;
+    margin-left: 2%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_top {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_top li {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: x-large;
+}
+
+.menu_top li a {
+    text-decoration: none;
+    color: #480080;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #aed60f;
+    padding-left: 13px;
+}
+
+
+.menu_top li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    font-size: large;
+}
+
+.hamburger {
+    display: none;
+    margin-left: 300px;
+}
+
+.hamburger .line {
+    width: 24px;
+    height: 3px;
+    background-color: #480080;
+    display: block;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+.menu_top>li>a:hover{
+    color: #9403fc;
+}
+.dropdown>li>a:hover{
+    color: #9403fc;
+}
+
+/* body */
+/* Головна */
+#main {
+    background-color: #212121;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+.biggif {
+    margin-top: 130px;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#main .main {
+    display: inline;
+}
+
+.border {
+    width: 96%;
+    margin: 0 2% 0 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #2e2e2e;
+    border: 6px;
+    border-radius: 25px;
+}
+
+.title {
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    font-size: 43px;
+    text-align: center;
+}
+
+.info p {
+    color: whitesmoke;
+    font-family: 'Shantell Sans', serif;
+    font-size: x-large;
+    margin: 0 20px 0 20px;
+}
+
+.textAndPic {
+    flex: 0 0 calc(100% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 2% 0 2%;
+}
+
+.textAndPic img {
+    width: 40%;
+    border-radius: 15px;
+}
+
+.image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.interesting_menu {
+    margin-left: 60px;
+}
+
+.interesting_menu p {
+    color: #edad09;
+    font-size: xx-large;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Shantell Sans', serif;
+    font-size: x-large;
+    color: #edad09;
+    margin-left: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#interesting {
+    overflow: hidden;
+}
+
+footer {
+    height: 130px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #aed60f !important;
+    display: flex;
+}
+
+.information {
+    width: 50%;
+}
+
+.information p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+    color: #480080;
+    padding: 3% 0 2% 25%;
+}
+
+.logoFooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logotextFooter {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Shantell Sans', serif;
+    padding-left: 50%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}

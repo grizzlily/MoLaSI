@@ -1,0 +1,868 @@
+@media only screen and (max-width: 1500px) {
+
+    .menu_top li {
+        font-size: 23px;
+    }
+
+    .dropdown li {
+        font-size: 18px;
+    }
+
+    .border .title {
+        font-size: 38px;
+    }
+
+    .info p {
+        font-size: 22px;
+    }
+
+    .textAndPic img {
+        width: 36%;
+    }
+
+    .interesting_menu p {
+        font-size: x-large;
+    }
+
+    .interesting_menu a {
+        font-size: 22px;
+    }
+
+    .article p {
+        font-size: 22px;
+    }
+
+    .littleborder {
+        padding-top: 5px;
+    }
+
+    .information p {
+        padding: 3.2% 0 2% 25%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #header,
+    footer {
+        height: 110px;
+    }
+
+    .menu_top li {
+        font-size: 20px;
+    }
+
+    .dropdown li {
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #logotext {
+        font-size: 25px;
+    }
+
+    .logoFooter img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .logotextFooter {
+        font-size: 20px;
+    }
+
+    .biggif {
+        margin-top: 110px;
+    }
+
+    .border .title {
+        font-size: 34px;
+    }
+
+    .info p {
+        font-size: 19px;
+    }
+
+    .information p {
+        font-size: 17px;
+        padding: 4.5% 0 2% 25%;
+    }
+
+    .article p {
+        font-size: 19px;
+    }
+
+    .article h1 {
+        font-size: 30px;
+    }
+
+    .article .pic {
+        width: 80%;
+        margin: 2% 10% 2% 10%;
+    }
+
+    .article .minipic {
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+    }
+
+    .grid figure {
+        max-width: 400px;
+        max-height: 280px;
+    }
+
+    .littleborder {
+        padding-top: 0;
+    }
+
+    .minititle {
+        font-size: 24px;
+    }
+
+    .linkForTasks {
+        font-size: 20px;
+    }
+
+    details>summary {
+        font-size: 24px;
+    }
+
+    .link {
+        font-size: 24px;
+    }
+
+    details {
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+
+    .information p {
+        padding: 2.9% 0 2% 25%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #logotext {
+        font-size: 25px;
+    }
+
+    .logoFooter img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logotextFooter {
+        font-size: 17px;
+    }
+
+    nav>ul>li>a {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+    nav>ul>li>a {
+        font-size: 18px;
+    }
+
+    .menu_top li {
+        margin-right: 50px;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .wrap .pic {
+        width: 50%;
+        margin: 25% 25%;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+
+    nav>ul>li>a {
+        font-size: 17px;
+    }
+
+    .menu_top li {
+        margin-right: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        margin-left: 8%;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #logotext {
+        font-size: 25px;
+    }
+
+    .logoFooter img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logotextFooter {
+        font-size: 17px;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+    }
+
+    #header,
+    footer {
+        height: 100px;
+    }
+
+    .biggif {
+        margin-top: 100px;
+    }
+
+    .information p {
+        font-size: 13px;
+        padding: 4% 0 2% 25%;
+    }
+
+    .border .title {
+        font-size: 28px;
+    }
+
+    .info p {
+        font-size: 17px;
+    }
+
+    .interesting_menu p {
+        font-size: 20;
+    }
+
+    .interesting_menu a {
+        font-size: 18px;
+    }
+
+    .article p {
+        font-size: 16px;
+    }
+
+    .article h1 {
+        font-size: 27px;
+    }
+
+    .article .sticker {
+        width: 33px;
+    }
+
+    .article .textAndPic>* {
+        margin: 0 25px;
+    }
+
+    .article .textAndPic {
+        padding: 25px 2% 25px 2%;
+    }
+
+    .littleborder p {
+        font-size: 16px;
+    }
+
+    details>summary {
+        font-size: 20px;
+    }
+    .link{
+        font-size: 20px;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .wrap .pic {
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+    }
+
+    .textAndPic {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 894px) {
+    nav>ul>li>a {
+        font-size: 16.5px;
+    }
+
+    .menu_top li {
+        margin-right: 35px;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+    }
+
+    .grid {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .grid figure {
+        min-width: 50px;
+        min-height: 50px;
+        height: 200px;
+        width: 250px;
+        margin-bottom: 2%;
+    }
+
+    .grid figure:hover p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .logo {
+        margin-left: 7%;
+    }
+
+    nav>ul>li>a {
+        font-size: 15px;
+    }
+
+    .menu_top li {
+        margin-right: 30px;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu_top {
+        padding-top: 10px;
+        display: none;
+        width: 100%;
+        height: 280px;
+        position: fixed;
+        top: 100px;
+        left: 0;
+    }
+
+    nav {
+        position: relative;
+        padding: 0 0;
+    }
+
+    nav>ul {
+        position: absolute;
+        top: 63px;
+        left: 31px;
+        width: 100%;
+        background-color: #aed60f;
+        box-shadow: 0 3px 6px;
+        border-radius: 0 0 15px 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    nav>ul>li {
+        display: block;
+    }
+
+    nav>ul>li>a {
+        display: block;
+        padding: 5px 5px;
+    }
+
+    .menu_top li {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        text-align: center;
+        display: block;
+        align-items: flex-start;
+        padding: 5px 0;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #aed60f;
+        min-width: 160px;
+        z-index: 1;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+
+    .hamburger {
+        display: block;
+    }
+
+    .added {
+        margin-bottom: 14px;
+    }
+
+    .information p {
+        font-size: 15px;
+        padding: 5% 0 1% 25%;
+    }
+
+    .logoFooter img {
+        width: 37px;
+        height: 37px;
+    }
+
+    .logotextFooter {
+        font-size: 19px;
+    }
+
+    .wrap480 {
+        flex-wrap: wrap;
+    }
+
+    .wrap480 .pic {
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .wrap .pic {
+        width: 50%;
+        margin: 2% 25% 2% 25%;
+    }
+
+    .textAndPic {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .grid figure {
+        min-width: 50px;
+        min-height: 50px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .grid figure:hover p {
+        font-size: 20px;
+    }
+
+    .empty .pic {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    details {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .border .title {
+        font-size: 25px;
+    }
+
+    .border {
+        width: 90%;
+        margin: 2% 5% 0 5%;
+    }
+
+    .link {
+        font-size: 20px;
+    }
+
+    details>summary {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 628px) {
+    .hamburger {
+        margin-left: 250px;
+    }
+
+    .wrap480 {
+        flex-wrap: wrap;
+    }
+
+    .wrap480 img {
+        width: 70%;
+        margin: 2% 15% 2% 15%;
+    }
+}
+@media only screen and (max-width: 608px) {
+    .information p {
+        font-size: 15px;
+        padding:7% 0 1% 20%;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .information p {
+        font-size: 13px;
+        padding:7% 0 1% 20%;
+    }
+}
+@media only screen and (max-width: 484px) {
+    .hamburger {
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .hamburger {
+        margin-left: 130px;
+    }
+
+    #header,
+    footer {
+        height: 80px;
+    }
+
+    .biggif {
+        margin-top: 80px;
+    }
+
+    .menu_top {
+        top: 80px;
+        height: 280px;
+    }
+
+    .wrap480 {
+        flex-wrap: wrap;
+        padding-bottom: 1%;
+    }
+
+    .wrap480 img {
+        width: 80%;
+    }
+
+    .wrap480 .pic {
+        width: 80%;
+        margin: 5% 10% 0 10%;
+    }
+
+    .logoFooter img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .logotextFooter {
+        font-size: 16px;
+    }
+
+    .information p {
+        font-size: 13px;
+        padding: 5.5% 0 1% 25%;
+    }
+
+    #main {
+        padding-bottom: 5%;
+    }
+
+    .interesting_menu {
+        margin-left: 25px;
+    }
+
+    .interesting_menu p {
+        font-size: 20px;
+    }
+
+    .interesting_menu a {
+        font-size: 16px;
+    }
+
+    .article .sticker {
+        width: 20px;
+    }
+
+    .article {
+        margin: 5%;
+        width: 90%;
+    }
+
+    .article h1 {
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .wrap480 .pic {
+        margin: 2% 10% 2% 10%;
+    }
+
+    .article .minipic {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article .wrap480 {
+        padding-top: 1%;
+    }
+
+    .article .pic {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .grid figure {
+        margin-bottom: 5%;
+    }
+
+    .grid {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .empty .pic {
+        width: 60%;
+        margin: 2% 20% 4% 20%;
+    }
+
+    details {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    details .littleborder {
+        width: 90%;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    details>summary {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .minititle {
+        margin-top: 1%;
+        font-size: 20px;
+    }
+
+    .paragraph,
+    .linkForTasks {
+        font-size: 20px;
+    }
+
+    #tasksVocabulary .link {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    #header,
+    footer {
+        height: 60px;
+    }
+
+    .hamburger {
+        margin-left: 110px;
+    }
+
+    .biggif {
+        margin-top: 60px;
+    }
+
+    .menu_top {
+        top: 60px;
+        height: 280px;
+    }
+
+    .menu_top>li>a {
+        font-size: 15px;
+    }
+
+    .hamburger .line {
+        width: 20px;
+        height: 2px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #logotext {
+        font-size: 19px;
+    }
+
+    .border .title {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 17px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .logoFooter img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .logotextFooter {
+        font-size: 13px;
+    }
+
+    .information p {
+        font-size: 9px;
+        padding: 7% 0 3% 10%;
+    }
+
+    .logoFooter {
+        margin-right: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    #header,
+    footer {
+        height: 60px;
+    }
+
+    .hamburger {
+        margin-left: 110px;
+    }
+
+    .biggif {
+        margin-top: 60px;
+    }
+
+    .menu_top {
+        top: 60px;
+        height: 270px;
+    }
+
+    .menu_top>li>a {
+        font-size: 15px;
+    }
+
+    .hamburger .line {
+        width: 20px;
+        height: 2px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #logotext {
+        font-size: 19px;
+    }
+
+    .border .title {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .logoFooter img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .logotextFooter {
+        font-size: 13px;
+    }
+
+    .information p {
+        font-size: 9px;
+        padding: 7% 0 1% 10%;
+    }
+
+    .logoFooter {
+        margin-right: 10%;
+    }
+
+    .interesting_menu {
+        margin-left: 25px;
+    }
+
+    .interesting_menu p {
+        font-size: 17px;
+    }
+
+    .interesting_menu a {
+        font-size: 15px;
+    }
+
+    .article p {
+        font-size: 15px;
+        padding: 7% 0 1% 1.5%;
+    }
+
+    .empty p {
+        font-size: 15px;
+    }
+
+    details>summary {
+        font-size: 17px;
+    }
+
+    .littleborder p {
+        font-size: 15px;
+    }
+
+    .minititle {
+        font-size: 17px;
+    }
+
+    .paragraph,
+    .linkForTasks {
+        font-size: 17px;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+
+    details>a {
+        font-size: 15px;
+    }
+
+}

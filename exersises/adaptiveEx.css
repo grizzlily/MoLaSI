@@ -1,0 +1,846 @@
+@media only screen and (max-width: 1850px) {
+
+    .bigcol {
+        display: flex;
+        gap: 20px;
+        width: 60%;
+        margin: 1% 20% 1% 20%;
+    }
+
+    .bigcol p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .menu_top li {
+        font-size: 23px;
+    }
+
+    .dropdown li {
+        font-size: 18px;
+    }
+
+    .twoColumns {
+        display: flex;
+        gap: 40px;
+        width: 60%;
+        margin: 1% 20% 1% 20%;
+    }
+
+    .twoColumns p {
+        margin: 0;
+    }
+
+    .bigcol {
+        display: flex;
+        gap: 40px;
+        width: 60%;
+        margin: 1% 20% 1% 20%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #logotext {
+        font-size: 25px;
+    }
+
+    .logoFooter img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logotextFooter {
+        font-size: 17px;
+    }
+
+    nav>ul>li>a {
+        font-size: 20px;
+    }
+
+    .border .minititle {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .linkcolumn>a {
+        font-size: 18px;
+    }
+
+    .bigcol {
+        display: flex;
+        gap: 40px;
+        width: 70%;
+        margin: 1% 15% 1% 15%;
+    }
+
+    .bigcol p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #header,
+    footer {
+        height: 110px;
+    }
+
+    .menu_top li {
+        font-size: 20px;
+    }
+
+    .dropdown li {
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #logotext {
+        font-size: 25px;
+    }
+
+    .logoFooter img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .logotextFooter {
+        font-size: 20px;
+    }
+
+    .main {
+        margin-top: 110px;
+    }
+
+    .exs1 {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    nav>ul>li>a {
+        font-size: 18px;
+    }
+
+    .menu_top li {
+        margin-right: 50px;
+    }
+
+    .border>form>p {
+        font-size: 16px;
+    }
+
+    .two-columns p {
+        font-size: 16px;
+    }
+
+    .button,
+    .button1 {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        padding: 9px 10px;
+    }
+
+    .bigcol {
+        display: flex;
+        gap: 60px;
+        width: 70%;
+        margin: 1% 15% 1% 15%;
+    }
+
+    .bigcol p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+
+    nav>ul>li>a {
+        font-size: 17px;
+    }
+
+    .menu_top li {
+        margin-right: 40px;
+    }
+
+    .border {
+        width: 90%;
+        margin: 2% 5% 0 5%;
+    }
+
+    .minitable {
+        width: 70%;
+        margin: 1% 15% 1% 15%;
+    }
+
+}
+
+@media only screen and (max-width: 1228px) {
+    .column>a {
+        font-size: 18px;
+    }
+
+    .column {
+        flex-basis: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    .centeredPic {
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+
+    .spacedParagraph {
+        margin-left: 0;
+    }
+
+    .exPics .minipic {
+        width: 150px;
+    }
+
+    .bigpic {
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+
+    .twoTable {
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        margin-left: 8%;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #logotext {
+        font-size: 25px;
+    }
+
+    .logoFooter img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logotextFooter {
+        font-size: 17px;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+    }
+
+    #header,
+    footer {
+        height: 100px;
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+
+    .bigpic {
+        width: 86%;
+        margin: 1% 7% 1% 7%;
+    }
+
+    .twoTable {
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+    .bigcol{
+        display: flex;
+        gap: 20px;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+    .sec{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .sec p{
+        width: 70%;
+        margin: 0 15% 0 15%;
+    }
+}
+
+@media only screen and (max-width: 894px) {
+    nav>ul>li>a {
+        font-size: 16.5px;
+    }
+
+    .menu_top li {
+        margin-right: 35px;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+    }
+
+    .border {
+        width: 90%;
+        margin: 2.5% 5% 0 5%;
+    }
+
+    .extitle {
+        font-size: 20px;
+    }
+
+    .twoColumns {
+        display: flex;
+        gap: 30px;
+        width: 70%;
+        margin: 1% 15% 1% 15%;
+    }
+
+    .twoColumns p {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .minitable {
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+    .sec{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .logo {
+        margin-left: 7%;
+    }
+
+    nav>ul>li>a {
+        font-size: 15px;
+    }
+
+    .menu_top li {
+        margin-right: 30px;
+    }
+
+    .dropdown li {
+        font-size: 13px;
+    }
+
+    .pictures .exs2 {
+        width: 160px;
+    }
+
+    .bigpic {
+        width: 92%;
+        margin: 1% 4% 1% 4%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu_top {
+        padding-top: 10px;
+        display: none;
+        width: 100%;
+        height: 280px;
+        position: fixed;
+        top: 100px;
+        left: 0;
+    }
+
+    nav {
+        position: relative;
+        padding: 0 0;
+    }
+
+    nav>ul {
+        position: absolute;
+        top: 63px;
+        left: 31px;
+        width: 100%;
+        background-color: #aed60f;
+        box-shadow: 0 3px 6px;
+        border-radius: 0 0 15px 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    nav>ul>li {
+        display: block;
+    }
+
+    nav>ul>li>a {
+        display: block;
+        padding: 5px 5px;
+    }
+
+    .menu_top li {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        text-align: center;
+        display: block;
+        align-items: flex-start;
+        padding: 5px 0;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #aed60f;
+        min-width: 160px;
+        z-index: 1;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+
+    .hamburger {
+        display: block;
+    }
+
+    .added {
+        margin-bottom: 14px;
+    }
+
+    .information p {
+        font-size: 15px;
+        padding: 3% 0 3% 25%;
+    }
+
+    .logoFooter img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .logotextFooter {
+        font-size: 16px;
+    }
+
+    .centeredPic {
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+
+    .minitable {
+        width: 86%;
+        margin: 1% 7% 1% 7%;
+    }
+
+    .twoColumns {
+        gap: 20px;
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+
+    .twoColumns p {
+        font-size: 14px;
+    }
+    .sec{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .sec p{
+        width: 90%;
+        margin: 5px 5% 0 5%;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .spacedParagraph {
+        margin-left: 0;
+    }
+
+    .exAndPic .pic {
+        width: 60%;
+        margin: 1% 20% 1% 20%;
+    }
+
+    .bigpic {
+        width: 96%;
+        margin: 1% 2% 1% 2%;
+    }
+
+    .twoTable {
+        width: 96%;
+        margin: 1% 2% 1% 2%;
+    }
+}
+
+@media only screen and (max-width: 628px) {
+    .hamburger {
+        margin-left: 250px;
+    }
+
+    .twoColumns {
+        gap: 5px;
+        width: 92%;
+        margin: 1% 4% 1% 4%;
+        padding: 0;
+    }
+
+    .twoColumns p {
+        font-size: 12px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 604px) {
+    .logoFooter {
+        padding-right: 7%;
+    }
+
+    .information>p {
+        font-size: 14px;
+        padding: 3% 0 3% 25%;
+    }
+
+    .extitle {
+        font-size: 17px;
+    }
+
+    .border p {
+        font-size: 15px;
+    }
+
+    .twoColumns p {
+        font-size: 12px;
+    }
+
+    .centeredPic {
+        width: 96%;
+        margin: 1% 2% 1% 2%;
+    }
+    .bigcol{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%
+    }
+    .bigcol p{
+        width: 70%;
+        margin: 5px 15% 5px 15%;
+    }
+    .sec{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .twoColumns {
+        gap: 40px;
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+
+    .minitable {
+        width: 94%;
+        margin: 1% 3% 1% 3%;
+    }
+    .bigcol p{
+        width: 90%;
+        margin: 5px 5% 5px 5%;
+    }
+    .sec{
+        gap: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+ 
+}
+
+@media only screen and (max-width: 508px) {
+    .logoFooter {
+        padding-right: 8%;
+    }
+
+    .information>p {
+        font-size: 13px;
+        padding: 3% 0 3% 25%;
+    }
+
+    .border {
+        width: 90%;
+        margin: 5% 5% 0 5%;
+        padding: 15px;
+    }
+
+    .bigpic {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .logoFooter img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .logoFooter {
+        padding-right: 8%;
+    }
+
+    .logotextFooter {
+        font-size: 16px;
+    }
+
+    .information>p {
+        font-size: 12px;
+        padding: 3% 0 3% 25%;
+    }
+
+    .centeredPic {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .minitable {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    .hamburger {
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .hamburger {
+        margin-left: 130px;
+    }
+
+    #header,
+    footer {
+        height: 80px;
+    }
+
+    .main {
+        margin-top: 80px;
+    }
+
+    .menu_top {
+        top: 80px;
+        height: 280px;
+    }
+
+    .logoFooter img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .logotextFooter {
+        font-size: 16px;
+    }
+
+    .table {
+        width: 80%;
+        margin: 1% 10% 1% 10%;
+    }
+
+    .twoTable {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+    }
+    .long{
+        width: 100%;
+    }
+    .long p{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    #header,
+    footer {
+        height: 60px;
+    }
+
+    .main {
+        margin-top: 60px;
+    }
+
+    .hamburger {
+        margin-left: 110px;
+    }
+
+    .menu_top {
+        top: 60px;
+        height: 280px;
+    }
+
+    .menu_top>li>a {
+        font-size: 15px;
+    }
+
+    .hamburger .line {
+        width: 20px;
+        height: 2px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #logotext {
+        font-size: 19px;
+    }
+
+    .logoFooter img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .logotextFooter {
+        font-size: 13px;
+
+    }
+
+    .information p {
+        font-size: 9px;
+        padding: 3% 0 3% 10%;
+    }
+
+    .logoFooter {
+        padding-right: 2%;
+    }
+
+    .table {
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+
+    .twoColumns {
+        gap: 30px;
+        width: 90%;
+        margin: 1% 5% 1% 5%;
+    }
+
+    .inLine p {
+        margin-left: 15px;
+    }
+    .bigcol p{
+        width: 98%;
+        margin: 5px 1% 5px 1%;
+    }
+    .sec{
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .table {
+        width: 96%;
+        margin: 1% 2% 1% 2%;
+    }
+
+    .twoColumns {
+        gap: 30px;
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+    }
+    .sec{
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    #header,
+    footer {
+        height: 60px;
+    }
+
+    .main {
+        margin-top: 60px;
+    }
+
+    .hamburger {
+        margin-left: 110px;
+    }
+
+    .menu_top {
+        top: 60px;
+        height: 270px;
+    }
+
+    .menu_top>li>a {
+        font-size: 15px;
+    }
+
+    .hamburger .line {
+        width: 20px;
+        height: 2px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #logotext {
+        font-size: 19px;
+    }
+
+    .logoFooter img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .logotextFooter {
+        font-size: 13px;
+    }
+
+    .logoFooter {
+        margin-right: 10%;
+    }
+
+    .table {
+        width: 98%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .inLine p {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,249 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+#header {
+    width: 100%;
+    height: 130px;
+    background-color: #aed60f;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logotext {
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Shantell Sans', serif;
+    margin-left: 2%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_top {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_top li {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: x-large;
+}
+
+.menu_top li a {
+    text-decoration: none;
+    color: #480080;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #aed60f;
+    padding-left: 13px;
+}
+
+
+.menu_top li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    font-size: large;
+}
+
+.hamburger {
+    display: none;
+    margin-left: 300px;
+}
+
+.hamburger .line {
+    width: 24px;
+    height: 3px;
+    background-color: #480080;
+    display: block;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+.menu_top>li>a:hover{
+    color: #9403fc;
+}
+.dropdown>li>a:hover{
+    color: #9403fc;
+}
+
+.main {
+    background-color: #212121;
+    padding-bottom: 2%;
+}
+
+.biggif {
+    margin-top: 130px;
+    width: 100%;
+}
+
+.border {
+    width: 60%;
+    margin: 2% 20% 0 20%;
+    border: 6px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.title {
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info p {
+    /* margin-top: 20px; */
+    color: #baa38d;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.minititle {
+    margin-top: 20px;
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    font-size: 180%;
+    text-align: center;
+}
+
+.main {
+    background-color: #212121;
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    width: 60%;
+}
+
+.littleborder {
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border: 6px solid #2e2e2e;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin-bottom: 0;
+}
+
+.littleborder p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+}
+
+.extitle {
+    font-size: x-large !important;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details>summary {
+    list-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #edad09;
+    font-family: 'Shantell Sans', serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: x-large;
+}
+
+.linkForTasks {
+    font-family: 'Shantell Sans', serif;
+    font-size: x-large;
+    color: #edad09;
+    text-decoration: none;
+}
+
+.pic {
+    width: 98%;
+    border-radius: 15px;
+    margin: 1% 1% 1% 1%;
+}
+
+.littleborder p {
+    margin-left: 2%;
+}
+
+.sticker {
+    width: 20px;
+}
+
+footer {
+    height: 130px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #aed60f !important;
+    display: flex;
+}
+
+.information {
+    width: 50%;
+}
+
+.information p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+    color: #480080;
+    padding: 3% 0 2% 25%;
+}
+
+.logoFooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logotextFooter {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Shantell Sans', serif;
+    padding-left: 50%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}

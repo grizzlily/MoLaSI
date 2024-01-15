@@ -1,0 +1,418 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+#header {
+    width: 100%;
+    height: 130px;
+    background-color: #aed60f;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logotext {
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Shantell Sans', serif;
+    margin-left: 2%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_top {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_top li {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: x-large;
+}
+
+.menu_top li a {
+    text-decoration: none;
+    color: #480080;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #aed60f;
+    padding-left: 13px;
+}
+
+
+.menu_top li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    font-size: large;
+}
+
+.hamburger {
+    display: none;
+    margin-left: 300px;
+}
+
+.hamburger .line {
+    width: 24px;
+    height: 3px;
+    background-color: #480080;
+    display: block;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+.menu_top>li>a:hover{
+    color: #9403fc;
+}
+.dropdown>li>a:hover{
+    color: #9403fc;
+}
+
+
+/* body */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+}
+.main {
+    margin-top: 130px;
+    background-color: #212121;
+    padding-bottom: 2%;
+}
+
+.border {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 96%;
+    margin: 2%;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border: 6px solid #2e2e2e;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin-bottom: 0;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.title {
+    background-color: #212121;
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.info p {
+    color: #baa38d;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+
+.border p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+}
+
+.extitle {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: x-large ;
+}
+
+.minititle {
+    margin-bottom: 20px;
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.questions {
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.exs1 {
+    width: 170px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.questions p {
+    margin: 0;
+}
+
+.answers {
+    width: 100%;
+    text-align: center;
+}
+.answers summary::-webkit-details-marker {
+    display: none;
+}
+
+.answers>summary {
+    list-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #edad09;
+    font-family: 'Shantell Sans', serif;
+    font-size: large;
+    text-align: center;
+}
+
+.answers p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.border ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: larger;
+}
+
+.border li::before {
+    content: '\2022';
+    color: #edad09;
+    display: inline-block;
+    width: 1em;
+    margin-left: 3em;
+}
+
+.exsAndPic {
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    flex-wrap: wrap;
+}
+
+.exsAndPic p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pic {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+.largepic{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.bigpic {
+    width: 60%;
+    border-radius: 15px;
+    margin: 1% 20% 1% 20%;
+}
+
+.spacedParagraph {
+    display: flex;
+    margin-left: 110px;
+}
+
+.spacedParagraph p {
+    text-align: left;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.exs2 {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.centeredPic {
+    width: 70%;
+    display: block;
+    margin: 1% 15% 1% 15%;
+    border-radius: 15px;
+}
+
+.table {
+    width: 60%;
+    margin: 1% 20% 1% 20%;
+    color: #edad09;
+}
+
+.table td {
+    width: 20%;
+}
+
+.minitable {
+    width: 60%;
+    margin: 1% 20% 1% 20%;
+    color: #edad09;
+    font-size: larger;
+}
+
+.minitable td {
+    width: 7.5%;
+    height: 50px;
+}
+
+.twoTable {
+    width: 65%;
+    margin: 1% 17.5% 1% 17.5%;
+    color: #edad09;
+}
+
+.twoTable td {
+    width: 32.5%;
+    height: 30px;
+}
+
+.exPics {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.minipic {
+    width: 18%;
+    margin: 5px;
+}
+
+.twoColumns {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 30% 1% 30%;
+}
+.twoColumns p {
+    margin: 0; 
+}
+.inLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.exersisesLinks{
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #212121;
+}
+.column{
+    align-items: center; 
+    line-height: 2;
+    flex-basis: 30%;
+    max-width: 300px;
+}
+.link{
+    text-decoration: none;
+    color: #edad09;
+    font-size: 20px;
+}
+
+footer {
+    height: 130px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #aed60f !important;
+    display: flex;
+}
+
+.information {
+    width: 50%;
+}
+
+.information p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+    color: #480080;
+    padding: 3% 0 2% 25%;
+}
+
+.logoFooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logotextFooter {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Shantell Sans', serif;
+    padding-left: 50%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}
