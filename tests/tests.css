@@ -1,0 +1,300 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+#header {
+    width: 100%;
+    height: 130px;
+    background-color: #aed60f;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logotext {
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Shantell Sans', serif;
+    margin-left: 2%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_top {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu_top li {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: x-large;
+}
+
+.menu_top li a {
+    text-decoration: none;
+    color: #480080;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #aed60f;
+    padding-left: 13px;
+}
+
+
+.menu_top li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    font-size: large;
+}
+
+.hamburger {
+    display: none;
+    margin-left: 300px;
+}
+
+.hamburger .line {
+    width: 24px;
+    height: 3px;
+    background-color: #480080;
+    display: block;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.menu_top>li>a:hover {
+    color: #9403fc;
+}
+
+.dropdown>li>a:hover {
+    color: #9403fc;
+}
+
+
+/* body */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+}
+
+.main {
+    margin-top: 130px;
+    background-color: #212121;
+    padding-bottom: 2%;
+}
+
+.border {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 60%;
+    margin: 2% 20% 2% 20%;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border: 6px solid #2e2e2e;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin-bottom: 0;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.title {
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #212121;
+}
+
+.minititle {
+    margin-bottom: 20px;
+    color: #cafc03;
+    font-family: 'Shantell Sans', serif;
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.border p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+    margin-bottom: 15px;
+    white-space: normal;
+}
+
+.two-columns {
+    display: flex;
+    gap: 200px;
+}
+.column {
+    flex: 1;
+}
+
+.button {
+    width: 140px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7a15e6;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Shantell Sans', serif;
+    font-size: medium;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px #859c08,
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn {
+    background: #aed60f;
+    background: linear-gradient(0deg, #aed60f 0%, #aed60f 100%);
+    border: none;
+}
+
+.btn:hover {
+    background: #9db809;
+    background: linear-gradient(0deg, #9db809 0%, #9db809 100%);
+}
+
+.button1 {
+    width: 140px;
+    height: 40px;
+    color: #7a15e6;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Shantell Sans', serif;
+    font-size: medium;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px #8f690a,
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn1 {
+    background: #edad09;
+    background: linear-gradient(0deg, #edad09 0%, #edad09 100%);
+    border: none;
+}
+
+.btn1:hover {
+    background: #c9930a;
+    background: linear-gradient(0deg, #c9930a 0%, #c9930a 100%);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.exersisesLinks {
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #212121;
+}
+
+.linkcolumn {
+    align-items: center;
+    line-height: 2;
+}
+
+.link {
+    text-decoration: none;
+    color: #edad09;
+    font-size: 20px;
+}
+
+/* Стилi для footer */
+footer {
+    height: 130px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #aed60f !important;
+    display: flex;
+}
+
+.information {
+    width: 50%;
+}
+
+.information p {
+    font-size: large;
+    font-family: 'Shantell Sans', serif;
+    color: #480080;
+    padding: 3% 0 2% 25%;
+}
+
+.logoFooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logotextFooter {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Shantell Sans', serif;
+    padding-left: 50%;
+    color: #480080;
+    display: flex;
+    align-items: center;
+}
