@@ -35,7 +35,7 @@ $(function () {
 window.onload = function () {
     if (window.innerWidth <= 768) {
         var taskItem = document.querySelector('.menu_top > li:last-child');
-        taskItem.innerHTML = '<a class="added" href="../pages/taskswr.html">Письмові завдання</a><a class="added" href="../pages/taskstests.html">Тестові завдання</a>';
+        taskItem.innerHTML = '<a class="added" href="../taskswr.html">Письмові завдання</a><a class="added" href="../taskstests.html">Тестові завдання</a>';
     } else {
         var nav = document.querySelector('nav');
         nav.innerHTML = `
@@ -45,15 +45,15 @@ window.onload = function () {
         <span class="line"></span>
     </div>
     <ul class="menu_top">
-        <li><a href="main.html">Головна</a></li>
-        <li><a href="interesting.html">Цікавеньке</a></li>
-        <li><a href="literature.html">Література</a></li>
-        <li><a href="vocabulary.html">Словничок</a></li>
+        <li><a href="../index.html">Головна</a></li>
+        <li><a href="../interesting.html">Цікавеньке</a></li>
+        <li><a href="../literature.html">Література</a></li>
+        <li><a href="../vocabulary.html">Словничок</a></li>
         <li>
             <a href="#">Завдання</a>
             <ul class="dropdown">
-                <li><a href="taskswr.html">Письмові</a></li>
-                <li><a href="taskstests.html">Тестові</a></li>
+                <li><a href="../taskswr.html">Письмові</a></li>
+                <li><a href="../taskstests.html">Тестові</a></li>
             </ul>
         </li>
     </ul>
