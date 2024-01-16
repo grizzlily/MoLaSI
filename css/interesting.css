@@ -117,6 +117,7 @@ nav {
 }
 
 .border {
+    padding-top: 2%;
     margin-top: 1%;
     border: 6px;
     border-radius: 25px;
